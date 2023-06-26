@@ -1,0 +1,24 @@
+.container-my-4
+{
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 70px;
+    padding-right:70px;
+    align-items: center;
+    border: 5px solid #969696;
+    background: #d9dbda;
+}
+.form-group
+{
+    padding-top: 20px;
+}
+.items
+{
+    margin-top:20px ;
+}
+.btn-primary
+{
+    margin-top: 10px;
+    background-color: rgb(80, 142, 249);
+}

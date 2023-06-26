@@ -1,0 +1,33 @@
+<!-- Add the following code to your home page HTML -->
+<html>
+  <head>
+    <!-- Include jQuery library -->
+    <script src="pep.js"></script>
+    <script>
+      $(document).ready(function() {
+        // When the page is loaded, show the dialog
+        $("#dialog").dialog({
+          modal: true, // Make the dialog modal (prevent interaction with the page behind)
+          buttons: {
+            Close: function() {
+              $(this).dialog("close"); // Close the dialog when the "Close" button is clicked
+            }
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!-- Add the dialog HTML to your home page -->
+    <div id="dialog" title="Welcome to our website!">
+      <p>Thank you for visiting our website. We are thrilled to have you here! Here's a quick overview of what you can expect from our site:</p>
+      <ul>
+        <li>We offer a wide range of products/services to meet your needs.</li>
+        <li>Our prices are competitive and our quality is top-notch.</li>
+        <li>Our team is dedicated to providing excellent customer service.</li>
+        <li>We are committed to your satisfaction and stand behind our products/services.</li>
+      </ul>
+      <p>If you have any questions or need assistance with anything, please don't hesitate to reach out to us. We are always here to help!</p>
+    </div>
+  </body>
+</html>
